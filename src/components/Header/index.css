@@ -1,0 +1,60 @@
+.header {
+  font-family: "Proxima Nova Semibold";
+  display: flex;
+  width: 100%;
+  height: 80px;
+  justify-content: center;
+  background: linear-gradient(
+    180deg,
+    rgba(0, 78, 134, 0.8) 0%,
+    rgba(10, 65, 104, 0.8) 100%
+  );
+}
+
+.container {
+  width: 1420px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  width: 320px;
+  align-items: center;
+}
+
+.contacts {
+  display: flex;
+  width: 480px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.phone {
+  text-align: end;
+}
+
+.phoneNumber {
+  font-family: "Proxima Nova Bold";
+  color: #ffffff;
+  font-size: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: #fee040;
+  font-size: 14px;
+}
+
+p {
+  font-size: 12px;
+  color: #ffffff;
+  opacity: 0.5;
+  margin-bottom: 3px;
+  margin-top: 0;
+}
+
+img {
+  margin-right: 10px;
+}
