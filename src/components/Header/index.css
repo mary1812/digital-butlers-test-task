@@ -3,12 +3,9 @@
   display: flex;
   width: 100%;
   height: 80px;
-  justify-content: center;
-  background: linear-gradient(
-    180deg,
-    rgba(0, 78, 134, 0.8) 0%,
-    rgba(10, 65, 104, 0.8) 100%
-  );
+  justify-content:  center;
+  background: transparent;
+  position:fixed;
 }
 
 .container {
@@ -26,7 +23,7 @@
 
 .contacts {
   display: flex;
-  width: 480px;
+  width: 460px;
   justify-content: space-between;
   align-items: center;
 }
@@ -39,15 +36,16 @@
   font-family: "Proxima Nova Bold";
   color: #ffffff;
   font-size: 20px;
+  text-decoration: none;
 }
 
-a {
+.linkToEmail{
   text-decoration: none;
   color: #fee040;
   font-size: 14px;
 }
 
-p {
+.contactToUs {
   font-size: 12px;
   color: #ffffff;
   opacity: 0.5;
@@ -55,6 +53,6 @@ p {
   margin-top: 0;
 }
 
-img {
+.smallImage {
   margin-right: 10px;
 }
