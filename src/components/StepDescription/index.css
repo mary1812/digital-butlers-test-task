@@ -1,0 +1,19 @@
+.mainStepWrap{
+  
+  display: inline-block;
+}
+
+.stepsWrapper{
+  width: 270px;
+  color: #FFFFFF;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.headerStep{
+  display: inline-block;
+  width: 200px;
+  font-family: 'Proxima Nova Bold';
+  font-size: 20px;
+}
