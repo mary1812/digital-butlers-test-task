@@ -15,12 +15,12 @@ const Header = () => {
         </div>
         <div className="contacts">
           <div className="email">
-            <p>Пишите нам на email</p>
-            <img src={mail} alt="mail logo"></img>
-            <a href="mailto:info@diagnistics.by">info@diagnistics.by</a>
+            <p className="contactToUs">Пишите нам на email</p>
+            <img src={mail} alt="mail logo" className="smallImage"></img>
+            <a href="/" className="linkToEmail">info@diagnistics.by</a>
           </div>
           <div className="phone">
-            <p><img src={phone} alt="phone"></img>Есть вопросы? Звоните!</p>
+            <p className="contactToUs"><img src={phone} alt="phone" className="smallImage"></img>Есть вопросы? Звоните!</p>
             <a href="tel:+375(29)456-45-45" title="click to call" className="phoneNumber">+375 (29) 456-45-45</a>
           </div>
         </div>
