@@ -38,9 +38,13 @@ const MainSection = () => {
           </div>
         </div>
       </div>
-     {stepInfo.map(({img, text})=>{
-       return <StepDescription img={img} text={text}/>
-     })}
+      <div className="header">
+        <div className="container">
+          {stepInfo.map(({ img, text }) => {
+            return <StepDescription key={text} img={img} text={text} />;
+          })}
+        </div>
+      </div>
     </div>
   );
 };
