@@ -1,19 +1,19 @@
-.mainStepWrap{
-  
+.mainStepWrap {
   display: inline-block;
+  width: 270px;
+  height: 80px;
 }
 
-.stepsWrapper{
-  width: 270px;
-  color: #FFFFFF;
+.stepsWrapper {
+  color: #ffffff;
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
-.headerStep{
+.headerStep {
   display: inline-block;
   width: 200px;
-  font-family: 'Proxima Nova Bold';
+  font-family: "Proxima Nova Bold";
   font-size: 20px;
 }
