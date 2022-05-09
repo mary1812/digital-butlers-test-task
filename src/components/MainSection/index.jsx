@@ -4,6 +4,7 @@ import firstStroke from "./../../assets/img/firstStroke.png";
 import secondStroke from "./../../assets/img/secondStroke.png";
 import thirdStroke from "./../../assets/img/thirdStroke.png";
 import StepDescription from "./../StepDescription";
+import VideoSpinner from "../VideoSpinner";
 import "./index.css";
 
 const MainSection = () => {
@@ -39,11 +40,12 @@ const MainSection = () => {
         </div>
       </div>
       <div className="header">
-        <div className="container">
+        <div className="container stepsSpinner">
           {stepInfo.map(({ img, text }) => {
             return <StepDescription key={text} img={img} text={text} />;
-          })}
+          })} <VideoSpinner/>
         </div>
+       
       </div>
     </div>
   );
