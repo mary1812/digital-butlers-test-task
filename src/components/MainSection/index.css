@@ -63,3 +63,9 @@
   border: none;
   cursor: pointer;
 }
+
+.stepsSpinner{
+  margin-top: 250px;
+  display: flex;
+  align-items: center;
+}
