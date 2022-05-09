@@ -19,6 +19,16 @@
 }
 
 @font-face {
+  font-family: 'Proxima Nova Extra Bold';
+  src: url('ProximaNova-Extrabld.eot');
+  src: url('ProximaNova-Extrabld.eot?#iefix') format('embedded-opentype'),
+  url('ProximaNova-Extrabld.woff') format('woff'),
+  url('ProximaNova-Extrabld.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  }
+
+@font-face {
   font-family: "Gilroy Extra Bold";
   src: url("Gilroy-ExtraBold.eot");
   src: url("Gilroy-ExtraBold.eot?#iefix") format("embedded-opentype"),
@@ -37,3 +47,13 @@
   font-weight: normal;
   font-style: normal;
 }
+
+@font-face {
+  font-family: 'Bebas Neue Bold';
+  src: url('BebasNeueBold.eot');
+  src: url('BebasNeueBold.eot?#iefix') format('embedded-opentype'),
+  url('BebasNeueBold.woff') format('woff'),
+  url('BebasNeueBold.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  }
