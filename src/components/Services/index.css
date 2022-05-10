@@ -69,14 +69,39 @@
 
 .mainHeaderServices,
 .pCardSection,
-.hCardSection{
+.hCardSection {
   color: #ffffff;
 }
 
 .headerServices,
-.aCardSection{
+.aCardSection {
   color: #fee040;
   font-size: 20px;
   line-height: 16px;
   font-family: "Bebas Neue Bold";
+}
+
+@media (max-width: 1400px) {
+  .cardSection {
+    margin-left: 10vw;
+  }
+  .mainHeaderServices {
+    width: 60vw;
+    text-align: center;
+  }
+}
+
+@media (max-width: 1200px) {
+  .cardSection,
+  .imgLine {
+    display: none;
+  }
+  .servicesWrapper{
+    height: 200px;
+    
+  }
+
+  .textServices{
+    padding: 0px;
+  }
 }

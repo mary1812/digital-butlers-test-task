@@ -9,12 +9,12 @@
 }
 
 .leftSection{
-  width: 50%;
+  width: 50vw;
   background-color: #ffffff;
 }
 
 .rightSection{
-  width: 50%;
+  width: 50vw;
   background-color: #F5F5F5;
 }
 
@@ -27,7 +27,6 @@
 
 .weWorkQuickly{
   width: 460px;
-  height: 126px;
   font-family: "Gilroy Extra Bold";
   font-size: 32px;
   line-height: 42px;
@@ -61,3 +60,22 @@
   letter-spacing: -0.5px;
 }
 
+@media (max-width: 1400px){
+  .weWorkQuickly, .parWeWorkQuickly, .youGet, .advantages{
+    width: 30vw;
+    text-align: center
+  }
+  .imgDevice{
+    display: none;
+  }
+  .container{
+    width: 80vw;
+  }
+  .leftContent{
+    height: 400px;
+  }
+  .stepsSpinner{
+    flex-direction: column;
+    margin-top: 0;
+  }
+}

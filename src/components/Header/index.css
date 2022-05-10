@@ -63,3 +63,17 @@
 .smallImage {
   margin-right: 10px;
 }
+
+@media (max-width: 992px) {
+  .header{
+    display: flex;
+    justify-content: center;
+  }
+  .logoEnginee {
+    display: none;
+  }
+  .menu{
+    width: 80px;
+  }
+}
+

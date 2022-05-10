@@ -22,7 +22,7 @@ const Header = () => {
       <div className="container">
         <div className="menu">
           <BurgerMenu />
-          <img src={mainLogo} alt="main logo"/>
+          <img src={mainLogo} alt="main logo" className="logoEnginee"/>
         </div>
         <div className="contacts">
           <div className="email">

@@ -178,3 +178,13 @@
   color: #151515;
   opacity: 0.7;
 }
+
+@media (max-width: 1200px) {
+  .leftstepOne{
+    display: none;
+  }
+
+  .secondSectionWrapper{
+ margin: 0 auto;
+  }
+}

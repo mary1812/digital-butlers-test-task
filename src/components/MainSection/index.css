@@ -46,13 +46,13 @@
   line-height: 28px;
 }
 
-.mainHeader{
+.mainHeader {
   color: #ffffff;
   font-size: 42px;
   font-family: "Gilroy Extra Bold";
 }
 
-.btnGetCommercial{
+.btnGetCommercial {
   font-family: "Gilroy Extra Bold";
   letter-spacing: 2px;
   text-transform: uppercase;
@@ -65,17 +65,17 @@
   transition: all 500ms ease;
 }
 
-.btnGetCommercialHover{
+.btnGetCommercialHover {
   background: #ffd900;
 }
 
-.stepsSpinner{
+.stepsSpinner {
   margin-top: 250px;
   display: flex;
   align-items: center;
 }
 
-.stepsSpinnerWrapper{
+.stepsSpinnerWrapper {
   display: flex;
   width: 100%;
   height: 80px;
@@ -83,3 +83,14 @@
   position: absolute;
 }
 
+@media (max-width: 1200px) {
+  .textWrapper {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 150px;
+  }
+  .textInfoPar {
+    display: none;
+  }
+}

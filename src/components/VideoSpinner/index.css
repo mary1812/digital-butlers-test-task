@@ -41,4 +41,21 @@ img.textStamp{
   align-self: flex-end;
 }
 
+.polygon{
+  transition: all 0.8s ease-in-out;
+  position: absolute;
+  cursor: pointer;
+}
+
+@media (max-width: 1400px){
+  .spinnerWrapper{
+    margin-top: -200px;
+  }
+}
+
+@media (max-width: 1200px){
+  .spinnerWrapper{
+    display: none;
+  }
+}
 
