@@ -1,5 +1,6 @@
 import React from 'react';
-import burger from './../../assets/img/burger.png'
+import burger from './../../assets/img/burger.png';
+import './index.css';
 
 const BurgerMenu = () => {
   return (
