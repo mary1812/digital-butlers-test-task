@@ -33,14 +33,14 @@ const Services = () => {
     },
     {
       imgSrc: card4,
-      header: "Общее обследование",
+      header: "Телеинспекция инженерных сетей",
       paragraph:
         "Экспертиза отдельных конструкций, обмерные работы, определение прочности, расчет несущей способности и т.д.",
       href: "/",
     },
     {
       imgSrc: card3,
-      header: "Телеинспекция инженерных сетей",
+      header: "Общее обследование",
       paragraph:
         "Цветная телевизионная съемка внутренней поверхности любых протяженных объектов до 250 метров",
       href: "/",
@@ -55,7 +55,7 @@ const Services = () => {
           Выполняем как комплексное обследование, так и отдельные виды работ
         </h2>
       </div>
-      {/* <HorizontalScroll reverseScroll={true} animValues={5}> */}
+      <HorizontalScroll reverseScroll={true} animValues={1} style={{height: '480px'}} >
         <section className="cardSection">
           {cards.map((cardDesc) => {
             return (
@@ -64,11 +64,12 @@ const Services = () => {
                 header={cardDesc.header}
                 paragraph={cardDesc.paragraph}
                 href={cardDesc.href}
+                key={cardDesc.header+cardDesc.paragraph}
               />
             );
           })}
         </section>
-      {/* </HorizontalScroll> */}
+      </HorizontalScroll>
       <img className="imgLine" src={progressBar} alt="progress line" />
     </div>
   );
