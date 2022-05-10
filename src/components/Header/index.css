@@ -65,15 +65,25 @@
 }
 
 @media (max-width: 992px) {
-  .header{
+  .header {
     display: flex;
     justify-content: center;
   }
   .logoEnginee {
     display: none;
   }
-  .menu{
+  .menu {
     width: 80px;
   }
 }
 
+@media (max-width: 576px) {
+
+  .header{
+    position: absolute;
+  }
+  .contacts {
+    display: inline-block;
+    text-align: end;
+  }
+}
