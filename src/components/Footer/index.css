@@ -1,0 +1,137 @@
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 350px;
+}
+
+.hFooter {
+  margin: 0;
+  padding: 10px;
+  font-family: "Bebas Neue Bold";
+  font-size: 80px;
+  line-height: 64px;
+  text-align: center;
+  letter-spacing: 5px;
+  background: linear-gradient(180deg, #60b6ff 0%, rgba(0, 78, 134, 0.8) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.pFooter {
+  font-family: "Gilroy Bold";
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+  color: #505050;
+  width: 503px;
+  height: 56px;
+}
+
+.stepOne {
+  display: flex;
+  height: 440px;
+  background-color: #f5f5f5;
+}
+
+.leftstepOne {
+  width: 50%;
+  background: url("./../../assets/img/builder.png");
+}
+
+.rightStepOne {
+  width: 50%;
+}
+
+.spanStepOne {
+  font-family: "Proxima Nova Bold";
+  font-size: 16px;
+  line-height: 23px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: #151515;
+  background: #fee040;
+  width: 107px;
+  height: 27px;
+  text-align: center;
+}
+
+.headerStepOne {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.textStepOne {
+  display: flex;
+  flex-direction: column;
+  width: 460px;
+  height: 78px;
+  margin-left: 70px;
+
+}
+
+.parText{
+  font-family: "Proxima Nova SemiBold";
+  font-size: 18px;
+  line-height: 26px;
+  letter-spacing: -0.5px;
+  color: #333333;
+  opacity: 0.7;
+}
+
+.quoteAndStep{
+  display: flex;
+  flex-direction: column;
+  width: 570px;
+}
+
+.quoteContainer{
+display: flex;
+flex-direction: column;
+width: 501px;
+height: 119px;
+}
+
+
+.secondSectionWrapper{
+  margin-left: 70px;
+  width: 460px;
+}
+
+.quoteWrapper{
+  display: flex;
+  align-items: center;
+}
+
+.founderImg{
+  width: 79px;
+  height: 79px;
+  display: inline-block;
+  align-self: flex-start;
+}
+
+.quote{
+  
+  display: inline-block;
+}
+.quoteText{
+  margin: 0;
+  width: 380px;
+}
+
+.stepOneHeader{
+  display: inline-block;
+  margin: 0;
+}
+
+.stepHeader{
+  display: flex;
+
+}
+
+.quoteAuthor{
+  
+}
