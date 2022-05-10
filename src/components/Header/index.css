@@ -6,6 +6,13 @@
   justify-content:  center;
   background: transparent;
   position:fixed;
+  transition: all 0.8s ease-in-out ;
+  z-index: 1000;
+}
+
+.show{
+  background: #083759;
+  transition: all 0.8s ease-in-out;
 }
 
 .container {
