@@ -1,5 +1,24 @@
-.textStamp{
+img.textStamp{
   position: absolute;
+  animation: 20s linear 0s normal none infinite running textStamp;
+  -webkit-animation: 20s linear 0s normal none infinite running textStamp;
+}
+
+@keyframes textStamp {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+@-webkit-keyframes textStamp {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
 }
 
 .personPhoto{
