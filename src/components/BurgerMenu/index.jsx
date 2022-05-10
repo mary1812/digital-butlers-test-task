@@ -5,7 +5,7 @@ import './index.css';
 const BurgerMenu = () => {
   return (
     <div className='burger'>
-      <img src={burger} alt="burger menu"></img>
+      <img src={burger} alt="burger menu"/>
     </div>
   );
 }

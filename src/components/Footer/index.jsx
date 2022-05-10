@@ -12,33 +12,7 @@ const Footer = () => {
         </p>
       </div>
       <div className="stepOne">
-        <div className="leftstepOne" />
-        {/* <div className="rightstepOne">
-          <div className="quoteAndStep">
-            <div className="textStepOne">
-              <div className="headerStepOne">
-                <span className="spanStepOne">шаг №1. </span>
-                <h2>Подготовительные работы</h2>
-              </div>
-              <p className="parText">
-                Мы осматриваем здание, делаем замеры и проверяем наличие
-                визуально заметных дефектов: трещин, коррозии, повреждения
-                фундамента и т.д.
-              </p>
-            </div>
-            <div className="textStepOne">
-              <div className="headerStepOne"></div>
-              <p className="parText">sssssaaaaaaaaaaaaaaaaaaaaaa</p>
-              <h2>sssssssss</h2>
-            </div>
-
-            <div className="quoteContainer">
-              <img src="" alt="" />
-              <p>quote</p>
-              <p>par</p>
-            </div>
-          </div>
-        </div> */}
+        <div className="leftstepOne"/>
         <div className="secondSectionWrapper">
           <div className="stepOneWrapper">
             <div className="stepHeader">

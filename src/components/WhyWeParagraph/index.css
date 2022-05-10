@@ -1,4 +1,4 @@
-.pRight {
+.listAdvantages {
   margin: 0 0 0 20px;
   color: #333333;
   font-family: "Proxima Nova SemiBold";
@@ -8,7 +8,7 @@
   opacity: 0.7;
 }
 
-.rightContent {
+.advantages {
   display: flex;
   align-items: center;
   margin: 0 0 15px 0;

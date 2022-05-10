@@ -1,12 +1,12 @@
 import React from "react";
-import "./index.css";
 import Cards from "../Cards";
-import progressBar from "./../../assets/img/progressBar.png";
 import card1 from "./../../assets/img/card1.png";
 import card2 from "./../../assets/img/card2.png";
 import card3 from "./../../assets/img/card3.png";
 import card4 from "./../../assets/img/card4.png";
+import progressBar from "./../../assets/img/progressBar.png";
 import HorizontalScroll from "react-scroll-horizontal";
+import "./index.css";
 
 const Services = () => {
   const cards = [
@@ -55,7 +55,7 @@ const Services = () => {
           Выполняем как комплексное обследование, так и отдельные виды работ
         </h2>
       </div>
-      <HorizontalScroll reverseScroll={true} animValues={1} style={{height: '480px'}} >
+      <HorizontalScroll reverseScroll={true} animValues={1} style={{height: '450px'}} >
         <section className="cardSection">
           {cards.map((cardDesc) => {
             return (

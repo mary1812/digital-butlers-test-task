@@ -5,9 +5,9 @@ import "./index.css"
 
 const WhyWeParagraph = ({text}) => {
   return (
-    <div className="rightContent">
-      <img src={icon} alt="" />
-      <p className="pRight">{text}</p>
+    <div className="advantages">
+      <img src={icon} alt="check mark" />
+      <p className="listAdvantages">{text}</p>
     </div>
   );
 };

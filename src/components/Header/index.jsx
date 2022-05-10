@@ -22,19 +22,19 @@ const Header = () => {
       <div className="container">
         <div className="menu">
           <BurgerMenu />
-          <img src={mainLogo} alt="main logo"></img>
+          <img src={mainLogo} alt="main logo"/>
         </div>
         <div className="contacts">
           <div className="email">
             <p className="contactToUs">Пишите нам на email</p>
-            <img src={mail} alt="mail logo" className="smallImage"></img>
+            <img src={mail} alt="mail logo" className="smallImage"/>
             <a href="/" className="linkToEmail">
               info@diagnistics.by
             </a>
           </div>
           <div className="phone">
             <p className="contactToUs">
-              <img src={phone} alt="phone" className="smallImage"></img>Есть
+              <img src={phone} alt="phone" className="smallImage"/>Есть
               вопросы? Звоните!
             </p>
             <a
