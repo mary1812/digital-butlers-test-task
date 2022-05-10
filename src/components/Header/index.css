@@ -77,13 +77,4 @@
   }
 }
 
-@media (max-width: 576px) {
 
-  .header{
-    position: absolute;
-  }
-  .contacts {
-    display: inline-block;
-    text-align: end;
-  }
-}
