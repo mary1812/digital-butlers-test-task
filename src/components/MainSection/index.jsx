@@ -39,7 +39,7 @@ const MainSection = () => {
           </div>
         </div>
       </div>
-      <div className="header stepsSpinnerWrapper">
+      <div className="stepsSpinnerWrapper">
         <div className="container stepsSpinner">
           {stepInfo.map(({ img, text }) => {
             return <StepDescription key={text} img={img} text={text} />;
