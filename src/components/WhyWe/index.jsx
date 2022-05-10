@@ -33,7 +33,7 @@ const WhyWe = () => {
           <div className="rightContent">
             <h3 className="youGet">Вы и Ваши архитекторы получаете:</h3>
             {paragraphs.map((text) => {
-              return <WhyWeParagraph text={text} />;
+              return <WhyWeParagraph key={text} text={text} />;
             })}
           </div>
         </div>
