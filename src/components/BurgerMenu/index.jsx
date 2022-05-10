@@ -3,8 +3,8 @@ import burger from './../../assets/img/burger.png'
 
 const BurgerMenu = () => {
   return (
-    <div>
-      <img src={burger} alt="burger"></img>
+    <div className='burger'>
+      <img src={burger} alt="burger menu"></img>
     </div>
   );
 }
