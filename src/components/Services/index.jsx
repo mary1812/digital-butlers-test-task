@@ -55,6 +55,7 @@ const Services = () => {
           Выполняем как комплексное обследование, так и отдельные виды работ
         </h2>
       </div>
+      <div className="horizontal">
       <HorizontalScroll reverseScroll={true} animValues={1} style={{height: '450px'}} >
         <section className="cardSection">
           {cards.map((cardDesc) => {
@@ -69,7 +70,20 @@ const Services = () => {
             );
           })}
         </section>
-      </HorizontalScroll>
+      </HorizontalScroll></div>
+      <section className="cardSectionMobile">
+          {cards.map((cardDesc) => {
+            return (
+              <Cards
+                imgSrc={cardDesc.imgSrc}
+                header={cardDesc.header}
+                paragraph={cardDesc.paragraph}
+                href={cardDesc.href}
+                key={cardDesc.header+cardDesc.paragraph}
+              />
+            );
+          })}
+        </section>
       <img className="imgLine" src={progressBar} alt="progress line" />
     </div>
   );

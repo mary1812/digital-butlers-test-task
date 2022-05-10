@@ -4,7 +4,7 @@ import pointer from "./../../assets/img/pointer.png";
 
 const Cards = ({imgSrc, header, paragraph, href}) => {
   return (
-    <div className="container ">
+    <div className="container mobContainer">
       <div className="card">
         <img src={imgSrc} alt="" className="imgHouse" />
         <h3 className="hCardSection">{header}</h3>
