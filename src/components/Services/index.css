@@ -34,12 +34,11 @@
 }
 
 .cardSection {
-  width: 100%;
-  position: absolute;
+  margin-left: 250px;
+  width: 2500px;
   padding-top: 30px;
   padding-bottom: 30px;
   display: flex;
-  justify-content: center;
 }
 
 .card {

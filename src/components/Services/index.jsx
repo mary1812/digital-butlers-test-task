@@ -6,6 +6,7 @@ import card1 from "./../../assets/img/card1.png";
 import card2 from "./../../assets/img/card2.png";
 import card3 from "./../../assets/img/card3.png";
 import card4 from "./../../assets/img/card4.png";
+import HorizontalScroll from "react-scroll-horizontal";
 
 const Services = () => {
   const cards = [
@@ -37,6 +38,13 @@ const Services = () => {
         "Экспертиза отдельных конструкций, обмерные работы, определение прочности, расчет несущей способности и т.д.",
       href: "/",
     },
+    {
+      imgSrc: card3,
+      header: "Телеинспекция инженерных сетей",
+      paragraph:
+        "Цветная телевизионная съемка внутренней поверхности любых протяженных объектов до 250 метров",
+      href: "/",
+    },
   ];
 
   return (
@@ -47,18 +55,20 @@ const Services = () => {
           Выполняем как комплексное обследование, так и отдельные виды работ
         </h2>
       </div>
-      <section className="cardSection">
-        {cards.map((cardDesc) => {
-          return (
-            <Cards
-              imgSrc={cardDesc.imgSrc}
-              header={cardDesc.header}
-              paragraph={cardDesc.paragraph}
-              href={cardDesc.href}
-            />
-          );
-        })}
-      </section>
+      {/* <HorizontalScroll reverseScroll={true} animValues={5}> */}
+        <section className="cardSection">
+          {cards.map((cardDesc) => {
+            return (
+              <Cards
+                imgSrc={cardDesc.imgSrc}
+                header={cardDesc.header}
+                paragraph={cardDesc.paragraph}
+                href={cardDesc.href}
+              />
+            );
+          })}
+        </section>
+      {/* </HorizontalScroll> */}
       <img className="imgLine" src={progressBar} alt="progress line" />
     </div>
   );
