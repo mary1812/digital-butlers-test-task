@@ -56,6 +56,7 @@
   width: 107px;
   height: 27px;
   text-align: center;
+  margin-right: 20px;
 }
 
 .headerStepOne {
@@ -70,10 +71,9 @@
   width: 460px;
   height: 78px;
   margin-left: 70px;
-
 }
 
-.parText{
+.parText {
   font-family: "Proxima Nova SemiBold";
   font-size: 18px;
   line-height: 26px;
@@ -82,56 +82,99 @@
   opacity: 0.7;
 }
 
-.quoteAndStep{
+.quoteAndStep {
   display: flex;
   flex-direction: column;
   width: 570px;
 }
 
-.quoteContainer{
-display: flex;
-flex-direction: column;
-width: 501px;
-height: 119px;
+.quoteContainer {
+  display: flex;
+  flex-direction: column;
+  width: 501px;
+  height: 119px;
 }
 
-
-.secondSectionWrapper{
+.secondSectionWrapper {
   margin-left: 70px;
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+}
+
+.quoteWrapper {
+  display: flex;
+  margin-top: 20px;
+}
+
+.founderImg {
+  border-radius: 50%;
+  width: 56px;
+  height: 56px;
+  display: inline-block;
+  align-self: flex-start;
+  border: 7px solid #ffffff;
+  box-shadow: 0px 15px 40px rgba(0, 0, 0, 0.2);
+}
+
+.quote {
+  display: inline-block;
+  margin-left: 30px;
+}
+.quoteText {
+  margin: 0;
+  width: 380px;
+  
+}
+
+.stepOneHeader {
+  font-family: "Proxima Nova Bold";
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 34px;
+  letter-spacing: -0.5px;
+  color: #151515;
+  display: inline-block;
+  margin: 0;
+}
+
+.stepOneWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
   width: 460px;
 }
 
-.quoteWrapper{
+.stepHeader {
   display: flex;
   align-items: center;
 }
 
-.founderImg{
-  width: 79px;
-  height: 79px;
-  display: inline-block;
-  align-self: flex-start;
+.stepDesc {
+  font-family: "Proxima Nova SemiBold";
+  font-size: 18px;
+  line-height: 26px;
+  letter-spacing: -0.5px;
+  color: #333333;
+  opacity: 0.7;
 }
 
-.quote{
-  
-  display: inline-block;
-}
-.quoteText{
-  margin: 0;
-  width: 380px;
-}
-
-.stepOneHeader{
-  display: inline-block;
-  margin: 0;
+.quoteText {
+  font-family: "Proxima Nova Regular";
+  font-style: italic;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: -0.5px;
+  color: #505050;
+  opacity: 0.7;
 }
 
-.stepHeader{
-  display: flex;
-
-}
-
-.quoteAuthor{
-  
+.quoteAuthor {
+  font-family: "Proxima Nova Bold";
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: -0.5px;
+  color: #151515;
+  opacity: 0.7;
 }
