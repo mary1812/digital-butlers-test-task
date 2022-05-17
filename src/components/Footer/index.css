@@ -1,4 +1,4 @@
-.footer {
+.lastSectionAside {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -6,7 +6,7 @@
   height: 350px;
 }
 
-.hFooter {
+.asideHeader {
   margin: 0;
   padding: 10px;
   font-family: "Bebas Neue Bold";
@@ -20,7 +20,7 @@
   background-clip: text;
 }
 
-.pFooter {
+.asideParagraph {
   font-family: "Gilroy Bold";
   font-size: 20px;
   line-height: 28px;
@@ -30,13 +30,13 @@
   height: 56px;
 }
 
-.stepOne {
+.lastSection {
   display: flex;
   height: 440px;
   background-color: #f5f5f5;
 }
 
-.leftstepOne {
+.footerLeftImage {
   width: 50%;
   background: url("./../../assets/img/builder.png");
 }
@@ -45,7 +45,7 @@
   width: 50%;
 }
 
-.spanStepOne {
+.stepOneSpan {
   font-family: "Proxima Nova Bold";
   font-size: 16px;
   line-height: 23px;
@@ -95,11 +95,10 @@
   height: 119px;
 }
 
-.secondSectionWrapper {
+.stepOneArticle {
   margin-left: 70px;
   display: flex;
   flex-direction: column;
-
   justify-content: center;
 }
 
@@ -125,7 +124,6 @@
 .quoteText {
   margin: 0;
   width: 380px;
-  
 }
 
 .stepOneHeader {
@@ -146,12 +144,12 @@
   width: 460px;
 }
 
-.stepHeader {
+.preparatoryWork {
   display: flex;
   align-items: center;
 }
 
-.stepDesc {
+.stepOneDescription {
   font-family: "Proxima Nova SemiBold";
   font-size: 18px;
   line-height: 26px;
@@ -180,64 +178,71 @@
 }
 
 @media (max-width: 1200px) {
-  .leftstepOne{
+  .footerLeftImage {
     display: none;
   }
 
-  .secondSectionWrapper{
- margin: 0 auto;
+  .stepOneArticle {
+    margin: 0 auto;
   }
 }
 
 @media (max-width: 1200px) {
-  .leftstepOne{
+  .footerLeftImage {
     display: none;
   }
 
-  .secondSectionWrapper{
- margin: 0 auto;
+  .stepOneArticle {
+    margin: 0 auto;
   }
 }
 
-@media (max-width: 576px){
-  .stepHeader{
+@media (max-width: 576px) {
+  .preparatoryWork {
     flex-direction: column;
   }
-  .stepDesc, .quote, .stepOneWrapper, .quoteText, .footer, .mainHeader, .textInfo, .textWrapper{
+  .stepOneDescription,
+  .quote,
+  .stepOneWrapper,
+  .quoteText,
+  .lastSectionAside,
+  .mainHeader,
+  .textInfo,
+  .textWrapper {
     width: 80vw !important;
-  } 
-  .stepOneWrapper{
+  }
+  .stepOneWrapper {
     align-items: center;
   }
-  .stepDesc{
+  .stepOneDescription {
     text-align: center;
   }
-  .secondSectionWrapper{
+  .stepOneArticle {
     width: 100vw;
     align-items: center;
   }
-  .founderImg{
+  .founderImg {
     display: none;
   }
-  .textWrapper{
+  .textWrapper {
     padding-top: 55px !important;
   }
-  .email{
+  .email {
     display: none;
   }
-  .hFooter{
+  .asideHeader {
     font-size: 48px;
   }
-  .pFooter{
+  .asideParagraph {
     width: 80vw;
   }
-  .footer{
+  .lastSectionAside {
     align-self: center;
   }
-  .card{
+  .card {
     width: 80vw;
   }
-  .lastSectionWrapper{
+  .lastSectionWrapper {
     display: flex;
     flex-direction: column;
     align-items: center;
